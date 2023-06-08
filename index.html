@@ -13,7 +13,6 @@
 <body>
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">LOGO</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -24,10 +23,10 @@
             <a class="nav-link active" aria-current="page" href="#">home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">about</a>
+            <a class="nav-link" href="#about">about/characters</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">how to play</a>
+            <a class="nav-link" href="#play">how to play</a>
           </li>
         </ul>
       </div>
@@ -36,41 +35,42 @@
 
   <div class="container-fluid banner text-center d-flex justify-content-center align-items-center">
     <div>
-      <h1>titulo</h1>
-      <button type=" button" class="btn btn-primary btn-lg">play now!!</button>
+      <a role=" button" class="btn btn-primary btn-lg" href="https://fairy-game-1.marajosjos84.repl.co/" target="_blank"> 
+         play now!!
+        </a>
+
+</div>
     </div>
 
+  </div>
+
+  <div class="container mt-5 pt-5" id="about"> 
+    <div class="row">
+      <div class="col-12 col-lg-6">
+        <img src="IMG/about.png" class="mx-auto imagen" alt="" />
+      </div>
+      <div class="col-12 col-lg-6">
+      </div>
+    </div>
   </div>
 
   <div class="container mt-5 pt-5">
     <div class="row">
       <div class="col-12 col-lg-6">
-        <img src="IMG/bosque.jpg" class="mx-auto imagen" alt="" />
-      </div>
-      <div class="col-12 col-lg-6">
-        about
-      </div>
-    </div>
-  </div>
-
-  <div class="container mt-5 pt-5">
-    <div class="row">
-      <div class="col-12 col-lg-6">
-        characters & stuff
         <div class="container">
           <div class="row">
             <div class="col-12 col-lg-6">
             </div>
             <div class="col-12 col-lg-6 d-flex justify-content-between">
               <img src="IMG/personajes.png" class="mx-auto imagen" alt="" />
-              <img src="IMG/snails.png" class="mx-auto imagen" alt="" />
+    
             </div>
           </div>
         </div>
         <div class="container mt-5 pt-5 text-center">
 
-          <h1> how to play</h1>
-          <img src="IMG/how to play.png" class="mx-auto imagen" alt="" />
+          
+          <img src="IMG/how to play.png" class="mx-auto imagen" alt="" id="play"/>
 
 
         </div>
@@ -79,7 +79,7 @@
   </div>
 
   <div class="container-fluid footer text-secondary-emphasis">
-    footer
+    created 2023 by mariajose g.
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
